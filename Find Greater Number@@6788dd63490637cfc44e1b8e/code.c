@@ -3,14 +3,8 @@
 
 int main() {
     int a,b;
-    scanf("%d %d",&a,&b);
-    if(a>b){
-        printf();
-    } else if{
-        printf();
-    }else{
-        printf();
-    }
+    scanf("%d %d", &a,&b);
+    printf("%d",(a>b)? a:b);
 
     
     return 0;
