@@ -8,18 +8,16 @@ int main() {
         break;
     case(a>=80 && a<90):
         printf('B');
-        break ;
-
+        break;
     case(a>= 70 && a<80):
     printf('C');
     break;
-
     case (a>= 60 && a<70):
     printf('D');
     break;
 
      default:
-     printf('F');}
+     printf('F');
 
     return 0;
-}
+}}
