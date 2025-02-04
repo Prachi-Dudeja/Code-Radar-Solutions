@@ -19,6 +19,7 @@ int main() {
     printf('D');
     break;
 
-    default:  
+     default:
+     printf('F')
     return 0;
 }
