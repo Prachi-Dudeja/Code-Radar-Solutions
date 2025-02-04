@@ -20,6 +20,6 @@ int main() {
     break;
 
      default:
-     printf('F')
+     printf('F');
     return 0;
 }
