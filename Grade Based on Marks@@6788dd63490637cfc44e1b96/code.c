@@ -2,7 +2,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    switch(a):
+    switch(a){
     case (a>= 90):
         printf('A');
         break;
@@ -19,7 +19,7 @@ int main() {
     break;
 
      default:
-     printf('F');
+     printf('F');}
 
     return 0;
 }
