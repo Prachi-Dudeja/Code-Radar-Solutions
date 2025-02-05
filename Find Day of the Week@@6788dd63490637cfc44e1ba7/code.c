@@ -11,10 +11,10 @@ int main() {
         printf("Tuesday");
         break;
         case(3):
-        printf("Wednesday"):
+        printf("Wednesday");
         break;
         case(4):
-        printf("Thrusday"):
+        printf("Thrusday");
         break;
         case(4):
         printf("Friday");
