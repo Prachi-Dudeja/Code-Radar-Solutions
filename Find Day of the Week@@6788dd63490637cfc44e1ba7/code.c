@@ -15,15 +15,17 @@ int main() {
         case(4):
         printf("Thrusday");
         break;
-        case(4):
+        case(5):
         printf("Friday");
         break;
-        case(5):
+        case(6):
         printf("Saturday");
         break;
-        case(6):
+        case(7):
         printf("Sunday");
         break;
+        default:
+        printf("Invalid");
     }
     return 0;
 }
