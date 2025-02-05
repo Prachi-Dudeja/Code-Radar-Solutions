@@ -1,19 +1,19 @@
-#include <stdio.h>
-int main() {
-  int i,j,count=0;
-  scanf("%d",&i);
-  if(i<=1)
-  {printf("Not Prime\n");}
-for (j=1;j<=i;j++)
-{
-    if (i%j==0){
-        count++;
+#include<stdio.h>
+int main(){
+    int num , i;
+    scanf("%d",&num);
+    if( num <= 0){
+        return 0;
     }
-}
-if (count == 2){
-    printf("Prime\n");
-}
-else{printf("Not Prime");
-}
-return 0;
-}
+    if (num == 1){
+        printf("Not Prime");
+        return 0;
+    }
+    for ( i =2; i*i <= num; i++){
+        if(num % i == 0){
+            printf("Not Prime");
+        }
+    }
+    printf("Prime");
+    return 0;
+} 
