@@ -19,6 +19,7 @@ int main() {
         case('F'):
         printf("Fail");
         break;
+        default('E')
     }
     return 0;
 }
