@@ -2,7 +2,6 @@
 int main() {
     int n;
 
-    
     for (int i = 1; i <= n; i++) {          // Outer loop for rows
         for (int j = i; j < n; j++) {       // Print spaces to align stars
             printf(" ");
