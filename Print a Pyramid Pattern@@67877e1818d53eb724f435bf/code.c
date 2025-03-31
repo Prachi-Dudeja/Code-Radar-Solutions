@@ -8,7 +8,7 @@ int main() {
             printf(" ");
         }
         for (int k = 1; k <= (2 * i - 1); k++) {  // Print stars in the pyramid
-            printf("*");
+            printf(" * ");
         }
         printf("\n");                       // Move to the next line after each row
     }
