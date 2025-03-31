@@ -1,4 +1,4 @@
-void generateFibonacci(int n) {
+void generateFibonacci() {
     int t1 = 0, t2 = 1, nextTerm;
 
     for (int i = 1; i <= n; i++) {
