@@ -13,18 +13,10 @@ void bubbleSort(int arr[], int n) {
         }
     }
 }
-
-// Main function to test
-int main() {
-    int arr[] = {5, 3, 8, 6, 2}; // Example input
-    int n = sizeof(arr) / sizeof(arr[0]);
-    
-    bubbleSort(arr, n);  // Sort the array
-
-    // Output the sorted array
-    printf("Sorted array in ascending order:\n");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+void printArray(int arr[], int size) {
+    for (int i = 0; i < size; i++) {
+        printf("%d ", arr[i]);  // Print each element separated by a space
     }
-    return 0;
+    printf("\n");               // Move to the next line after printing the array
 }
+
