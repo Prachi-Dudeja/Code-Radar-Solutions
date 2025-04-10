@@ -2,14 +2,14 @@
 int main() {
     int n;
 
-    for (int i = 1; i <= n; i++) {          // Outer loop for rows
-        for (int j = i; j < n; j++) {       // Print spaces to align stars
+    for (int i = 1; i <= n; i++) {          
+        for (int j = i; j < n; j++) {       
             printf(" ");
         }
-        for (int k = 1; k <= (2 * i - 1); k++) {  // Print stars in the pyramid
+        for (int k = 1; k <= (2 * i - 1); k++) {  
             printf("*");
         }
-        printf("\n");                       // Move to the next line after each row
+        printf("\n");                       
     }
 
     return 0;
